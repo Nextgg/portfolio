@@ -3,9 +3,28 @@
   @tailwind utilities;
 
   @layer base {
+    @font-face {
+      font-family: 'Keleti';
+      src: url(/fonts/KeletiRegular.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'PIXY';
+      src: url(/fonts/PIXY.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'CHNOPixel';
+      src: url(/fonts/CHNOPixel.woff) format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
     :root {
       --background: 0 0% 100%;
       --foreground: 222.2 84% 4.9%;
+      
 
       --card: 0 0% 100%;
       --card-foreground: 222.2 84% 4.9%;
